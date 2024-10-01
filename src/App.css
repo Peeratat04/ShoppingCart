@@ -1,0 +1,76 @@
+
+
+.container {
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+  min-height: 100vh; /* ใช้ความสูงของหน้าจอทั้งหมด */
+  padding: 2rem;
+  background-color: #f9f9f9; /* สีพื้นหลังอ่อน */
+}
+
+/* ปรับแต่งกล่องของสินค้า */
+.product-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+}
+
+/* ปรับแต่งปุ่ม */
+button {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
+
+/* ตะกร้าสินค้า */
+.cart {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* ปรับแต่งกล่องของสินค้า */
+.product-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s; /* เพิ่มการเคลื่อนไหว */
+  overflow: hidden; /* ซ่อนเนื้อหาที่ล้น */
+}
+
+/* ปรับแต่งข้อความ */
+.product-name {
+  display: block; /* แสดงข้อความเป็นบล็อก */
+  color: #6f6f6ff5; /* สีส้ม */
+  margin-top: 1rem; /* ระยะห่างจากภาพ */
+}
+
+/* ข้อความเกี่ยวกับราคา */
+.product-price {
+  color: #4a4a4a; /* สีเทาเข้ม */
+  margin-top: 0.5rem; /* ระยะห่าง */
+  font-weight: 500;
+}
+
+.Code10 {
+  color: #4a4a4a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
